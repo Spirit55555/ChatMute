@@ -1,0 +1,43 @@
+name: ChatMute
+main: dk.spirit55555.chatmute.ChatMute
+version: 1.0.6
+description: Mute players who types an IP address or URL in the chat. You can also create your own filters.
+author: Anders G. Jørgensen
+website: http://spirit55555.dk
+softdepend: [Essentials, CommandBook, BanManager]
+permissions:
+  chatmute.*:
+    description: Gives access to all ChatMute permissions.
+    children:
+      chatmute.bypass.*: true
+      chatmute.notify: true
+      chatmute.admin: true
+  chatmute.bypass.*:
+    description: Allows you to bypass all filters. You can replace the "*" with a filter name, so you only bypass that filter.
+    default: op
+  chatmute.notify:
+    description: Allows you to receive messages when players get muted.
+    default: op
+  chatmute.admin:
+    description: Allows you to change the plugin settings.
+    default: op
+commands:
+  chatmute:
+    description: Access ChatMute commands.
+    usage: |
+      /<command> version - Show plugin version
+      /<command> reload - Reload the config files
+      /<command> permissions - Show the permission nodes
+      /<command> status - Show the plugin status
+      /<command> enable - Enable the plugin
+      /<command> disable - Disable the plugin
+      /<command> mute-time - Show the mute time
+      /<command> mute-time <minutes> - Change the mute time
+      /<command> filters - Show the current filters
+      /<command> filters <name> - Show the filter status
+      /<command> filters <name> enable - Enable the filter
+      /<command> filters <name> disable - Disable the filter
+      /<command> filters <name> mute-time - Show the filter mute time
+      /<command> filters <name> mute-time <minutes> - Change the filter mute time
+    permission: chatmute.admin
+    aliases: cm

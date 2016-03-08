@@ -1,0 +1,6 @@
+ipv4:
+  regex: "(\\d+\\.\\d+\\.\\d+\\.\\d+)(:(\\d+))?"
+  message: "&cPlease do not post IPs in the chat!"
+url:
+  regex: "(?:(https?)://)?([-\\w_\\.]{2,}\\.[a-zA-Z]{2,4})(/\\S*)?"
+  message: "&cPlease do not post URL's in the chat"

@@ -1,0 +1,13 @@
+enabled: true
+mute-time: 15
+prefix: "&2[&6ChatMute&2] &r"
+
+# The following variables can be used in the commands:
+#   {PLAYER} - The username of the player
+#   {TIME} - The mute time
+#   {MESSAGE} - The filter message
+commands:
+  # Will be used to mute the player.
+  mute: mute {PLAYER} {TIME}m
+  # Will only be shown in the notify message.
+  unmute: mute {PLAYER}

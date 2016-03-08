@@ -1,0 +1,30 @@
+notify: "&c%s has been muted for %d minutes because of this message: &f%s&r.\nIf this was an error, you can unmute him with %s."
+version: "&6version %s"
+reload: "has been reloaded."
+permissions: "Available permissions:"
+enable: "has been enabled."
+disable: "has been disabled."
+status:
+  enabled: "is enabled."
+  disabled: "is disabled."
+already:
+  enabled: "is already enabled."
+  disabled: "is already disabled."
+mute-time:
+  status: "Mute time is &f%d minutes."
+  set: "Mute time has been set to &f%d minutes&r."
+filters:
+  current: "Current filters (%d): %s"
+  notexist: "&f%s&r does not exist as a filter. Use &f/cm filters&r to see the available filters."
+  enable: "&f%s&r filter has been enabled."
+  disable: "&f%s&r filter has been disabled."
+  status:
+    enabled: "&f%s&r filter is enabled."
+    disabled: "&f%s&r filter is disabled."
+  already:
+    enabled: "&f%s&r filter is already enabled."
+    disabled: "&f%s&r filter is already disabled."
+  mute-time:
+    status: "&f%s&r filter mute time is &f%d minutes&r."
+    notset: "&f%s&r filter mute time has not been set (default is &f%d minutes&r)."
+    set: "&f%s&r filter mute time has been set to &f%d minutes&r."
