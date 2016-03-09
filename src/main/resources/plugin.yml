@@ -1,7 +1,7 @@
-name: ChatMute
 main: dk.spirit55555.chatmute.ChatMute
-version: 1.0.6
-description: Mute players who types an IP address or URL in the chat. You can also create your own filters.
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
 author: Anders G. Jørgensen
 website: http://spirit55555.dk
 softdepend: [Essentials, CommandBook, BanManager]
